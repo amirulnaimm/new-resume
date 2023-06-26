@@ -2,146 +2,74 @@
     box-sizing:border-box;
 }
 
-
 img{
-
-
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    align-items: center;
 }
 
 .avatar {
-    width: 400px;
-    height: 400px;
-
+    width: 300px;
+    height: 300px;
+    /* object-fit: cover;  */
+    margin: 20px;
 }
-#main-photo{
-    width: 500px;
-    height: 250px;
+header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; 
 }
 
-h1 {
-    color: blue;
-    background-color: #87656855;
-    bottom: 60px;
-    position: sticky;
-    top:0px
+.jarvis {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(29, 29, 162, 0.682);
+    background-color: #3a569bb1;
+    /* display: flex;
+    align-items: flex-start; */
+    /* flex-direction: column; */
+    /* bottom: 60px; */
+    /* position:absolute; */
+    /* top:0px */
 }
 
 nav{
     display:flex;
     gap: 8px;
+    position: relative;
 }
+
+
+
 
 a{  all: unset;
+    margin: 10px;
     padding: 4px 8px;
     border-radius: 3px;
-    background-color: purple;
-}
-
-.experience h1 {
-    font-size: 25px;
-}
-.skills h1 {
-    font-size: 35px;
-}
-
-
-.outer{
-    width:200px;
-    height:200px;
-    background-color:red;
-    
-}
-
-.inner{
-    width:80px;
-    height:80px;
-    background-color: yellow;
-}
-
-section{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.dimension{
-    background-color: burlywood;
-    box-sizing:border-box ;
-    width:100px ;
-    /*height: ;*/
-    padding: 20px;
-    border:8px solid red;
-    margin:20px;
-}
-button{
-    all:unset;
-    background-color:green;
-
-    box-sizing:border-box;
-    width:200px;
-    padding: 20px;
-    border: 2px;
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 33px;
-    font-weight:bold ;
-    font-style: italic;
-    transition: background-color 0.3s;
+    background-color: rgb(247, 176, 247);
     position: relative;
-    left:0px;
+    cursor: pointer;
+    color: blueviolet;
+}
+a:hover{
+    left:10px;
+    background-color: #e249b973;
     
 }
-button:hover{
-    background-color: aquamarine;
-    left: 100px;
-}
-    
-input{
-    all:unset;
-    border:1px solid black;
-    padding:8px,16px;
-    border-radius:8px;
+
+
+
+h1{
+    font-size: 35px;
     background-color: aqua;
-    caret-color: red;
-
-}
-input:focus{
-    background-color: antiquewhite;
-}
-
-body{
-    margin: 0px;
-    padding: 0px;
-}
-
-.container {
-    display: flex ;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items:center;
+    color: rgb(6, 82, 148);
+    font-weight: bold;
     
+}
 
+h2{
+    color: blue;
+    background-color: aquamarine;
+    font-weight: bolder;
+}
 
-}
-.box{ width: 100px;
-    height: 100px;
-    flex-grow: 1;
-
-}
-#red{
-    background-color: red;
-    height: 300px;
-}
-#yellow{
-    background-color: yellow;
-    height: 200px;
-}
-#blue{
-    background-color: blue;
-    height: 500px;
-}
